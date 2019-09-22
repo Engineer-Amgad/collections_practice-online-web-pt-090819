@@ -23,11 +23,9 @@ end
 
 def kesha_maker(array)
   kesha_array =[]
-  temp_element = ""
   array.each do |el|
     el[2] = "$"
-    temp_element = el
-    kesha_array << temp_element
+    kesha_array << el
   end 
   kesha_array
 end 
